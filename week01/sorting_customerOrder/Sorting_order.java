@@ -38,7 +38,7 @@ public class Sorting_order {
 
             for(int j = 0;j<n-i-1;j++){
                 if(orders[j].totalPrice > orders[j+1].totalPrice){
-                    Order temp = orders[j];
+                    Order temp = orders[j]; 
                     orders[j] = orders[j+1];
                     orders[j+1] = temp;
 
